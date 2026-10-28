@@ -1,0 +1,673 @@
+{
+  "args": {
+    "budgets": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.5,
+      0.7
+    ],
+    "steps": 400,
+    "seeds": 6,
+    "solve_rate": 0.35,
+    "out": "results/budget.json",
+    "figure": "figures/budget.png"
+  },
+  "rows": [
+    {
+      "budget": 0.05,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9944038847611817,
+      "accuracy": 0.0011780722908544348,
+      "update_variance": 0.009793989926071995,
+      "labels": 409.1666666666667
+    },
+    {
+      "budget": 0.05,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.9944335390539808,
+      "accuracy": 0.0011794541093724633,
+      "update_variance": 0.00585142235464236,
+      "labels": 390.8333333333333
+    },
+    {
+      "budget": 0.05,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.9937707477808381,
+      "accuracy": 0.0013217796116555258,
+      "update_variance": 0.009784340805868612,
+      "labels": 481.6666666666667
+    },
+    {
+      "budget": 0.05,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.9937168329467566,
+      "accuracy": 0.0013432212071562784,
+      "update_variance": 0.0058447299405473205,
+      "labels": 458.8333333333333
+    },
+    {
+      "budget": 0.05,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.004453527661478454,
+      "accuracy": 0.34612715899656993,
+      "update_variance": 0.004082521091255015,
+      "labels": 849.5
+    },
+    {
+      "budget": 0.05,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.005038280936673322,
+      "accuracy": 0.34597895008569624,
+      "update_variance": 0.005096675567767795,
+      "labels": 770.5
+    },
+    {
+      "budget": 0.1,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9943397806463112,
+      "accuracy": 0.0012078619290439765,
+      "update_variance": 0.007829691093680967,
+      "labels": 3172.1666666666665
+    },
+    {
+      "budget": 0.1,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.9891489114021174,
+      "accuracy": 0.002371778929586556,
+      "update_variance": 0.0038575917103686806,
+      "labels": 2955.3333333333335
+    },
+    {
+      "budget": 0.1,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.993658417199533,
+      "accuracy": 0.0013835036917261394,
+      "update_variance": 0.009782555649693667,
+      "labels": 3175.0
+    },
+    {
+      "budget": 0.1,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.9761135454447798,
+      "accuracy": 0.0054457566565701285,
+      "update_variance": 0.019999746272647823,
+      "labels": 3005.0
+    },
+    {
+      "budget": 0.1,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005413319558961252,
+      "accuracy": 0.3458709294688586,
+      "update_variance": 0.005489745964452155,
+      "labels": 1798.1666666666667
+    },
+    {
+      "budget": 0.1,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.004902172785330238,
+      "accuracy": 0.34586275162491403,
+      "update_variance": 0.003143299687040581,
+      "labels": 1607.1666666666667
+    },
+    {
+      "budget": 0.15,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9937690793836179,
+      "accuracy": 0.0013569398075526462,
+      "update_variance": 0.007824392168728949,
+      "labels": 6221.0
+    },
+    {
+      "budget": 0.15,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.9826925436540246,
+      "accuracy": 0.0038658649666386082,
+      "update_variance": 0.0019228393261165185,
+      "labels": 5617.0
+    },
+    {
+      "budget": 0.15,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.99199534293721,
+      "accuracy": 0.0018306225782989116,
+      "update_variance": 0.009756844523169925,
+      "labels": 6168.666666666667
+    },
+    {
+      "budget": 0.15,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.9343513936206672,
+      "accuracy": 0.017151102455025286,
+      "update_variance": 0.05510048020286524,
+      "labels": 5398.0
+    },
+    {
+      "budget": 0.15,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.0051298716607318315,
+      "accuracy": 0.3460740409497367,
+      "update_variance": 0.007033674117186056,
+      "labels": 2725.0
+    },
+    {
+      "budget": 0.15,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.0052082338681695125,
+      "accuracy": 0.3457597754638751,
+      "update_variance": 0.004135825922201423,
+      "labels": 2509.8333333333335
+    },
+    {
+      "budget": 0.2,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.99311475667055,
+      "accuracy": 0.0015228518153291317,
+      "update_variance": 0.005854975108881806,
+      "labels": 9244.833333333334
+    },
+    {
+      "budget": 0.2,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.9731209517792809,
+      "accuracy": 0.00627229197752446,
+      "update_variance": 0.0019065830303546276,
+      "labels": 8264.5
+    },
+    {
+      "budget": 0.2,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.9885635637316733,
+      "accuracy": 0.0027957974777002366,
+      "update_variance": 0.018434080265738517,
+      "labels": 9072.833333333334
+    },
+    {
+      "budget": 0.2,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.81993710190981,
+      "accuracy": 0.05558092890015007,
+      "update_variance": 0.12366560222595746,
+      "labels": 7455.166666666667
+    },
+    {
+      "budget": 0.2,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005245634820848822,
+      "accuracy": 0.34604118942640477,
+      "update_variance": 0.006034471612440467,
+      "labels": 3647.8333333333335
+    },
+    {
+      "budget": 0.2,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.004917767168258654,
+      "accuracy": 0.3459104018334189,
+      "update_variance": 0.0333121046116708,
+      "labels": 3359.8333333333335
+    },
+    {
+      "budget": 0.25,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9913105030987256,
+      "accuracy": 0.0019788655951852086,
+      "update_variance": 0.007794576830973353,
+      "labels": 12158.833333333334
+    },
+    {
+      "budget": 0.25,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.9604094019308653,
+      "accuracy": 0.009819015366358484,
+      "update_variance": 0.0037440495159131015,
+      "labels": 10850.5
+    },
+    {
+      "budget": 0.25,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.9664998248177491,
+      "accuracy": 0.00936001125287725,
+      "update_variance": 0.03800656395005538,
+      "labels": 11468.333333333334
+    },
+    {
+      "budget": 0.25,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.5859994893110979,
+      "accuracy": 0.13892883609087428,
+      "update_variance": 0.12536607070226083,
+      "labels": 8381.0
+    },
+    {
+      "budget": 0.25,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005924731284850899,
+      "accuracy": 0.34574198541496254,
+      "update_variance": 0.00563183234899196,
+      "labels": 4565.5
+    },
+    {
+      "budget": 0.25,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.005061172509359648,
+      "accuracy": 0.34585311095758753,
+      "update_variance": 0.02089641979829227,
+      "labels": 4235.333333333333
+    },
+    {
+      "budget": 0.3,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9894988628164496,
+      "accuracy": 0.0024668624802491727,
+      "update_variance": 0.009703198601411089,
+      "labels": 13185.0
+    },
+    {
+      "budget": 0.3,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.9416826510823003,
+      "accuracy": 0.01539924400168891,
+      "update_variance": 0.012576476614916345,
+      "labels": 13293.0
+    },
+    {
+      "budget": 0.3,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.9054979847135102,
+      "accuracy": 0.02993036080583981,
+      "update_variance": 0.08802453893204883,
+      "labels": 12309.5
+    },
+    {
+      "budget": 0.3,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.27532088642010905,
+      "accuracy": 0.24897060963173898,
+      "update_variance": 0.11664948901221894,
+      "labels": 7655.0
+    },
+    {
+      "budget": 0.3,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005534649000583448,
+      "accuracy": 0.34591340591385306,
+      "update_variance": 0.005132113841460821,
+      "labels": 5496.333333333333
+    },
+    {
+      "budget": 0.3,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.005030952534290793,
+      "accuracy": 0.34587115721688827,
+      "update_variance": 0.020900285097613824,
+      "labels": 5109.166666666667
+    },
+    {
+      "budget": 0.325,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9904573577709548,
+      "accuracy": 0.002244828314744816,
+      "update_variance": 0.009718360300545873,
+      "labels": 15246.166666666666
+    },
+    {
+      "budget": 0.325,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.9398644878012833,
+      "accuracy": 0.016095079418595205,
+      "update_variance": 0.012529345575322377,
+      "labels": 13570.666666666666
+    },
+    {
+      "budget": 0.325,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.5499039333004222,
+      "accuracy": 0.15351497745402334,
+      "update_variance": 0.1449265246401536,
+      "labels": 10603.666666666666
+    },
+    {
+      "budget": 0.325,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.11905441850449582,
+      "accuracy": 0.3044327029997222,
+      "update_variance": 0.07994851900433854,
+      "labels": 7045.5
+    },
+    {
+      "budget": 0.325,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005567985545785273,
+      "accuracy": 0.34591270446815936,
+      "update_variance": 0.005486342910390369,
+      "labels": 5960.5
+    },
+    {
+      "budget": 0.325,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.005252362889328083,
+      "accuracy": 0.34580038618127046,
+      "update_variance": 0.011857138719934381,
+      "labels": 5567.166666666667
+    },
+    {
+      "budget": 0.35,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9901566528381899,
+      "accuracy": 0.0023431219008743895,
+      "update_variance": 0.00971381365958667,
+      "labels": 15380.166666666666
+    },
+    {
+      "budget": 0.35,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.9140491467505164,
+      "accuracy": 0.024510245817036314,
+      "update_variance": 0.01717155561352853,
+      "labels": 15412.333333333334
+    },
+    {
+      "budget": 0.35,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.05393806792638937,
+      "accuracy": 0.32831802701561885,
+      "update_variance": 0.06322452721734191,
+      "labels": 7756.166666666667
+    },
+    {
+      "budget": 0.35,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.04927532915511352,
+      "accuracy": 0.3295788132688226,
+      "update_variance": 0.041607824510200085,
+      "labels": 6880.0
+    },
+    {
+      "budget": 0.35,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005880236637394361,
+      "accuracy": 0.3457698611991524,
+      "update_variance": 0.015229787502926645,
+      "labels": 6414.333333333333
+    },
+    {
+      "budget": 0.35,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.005216514110430583,
+      "accuracy": 0.34582689828105745,
+      "update_variance": 0.011854652557233468,
+      "labels": 5986.666666666667
+    },
+    {
+      "budget": 0.375,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9859093880406101,
+      "accuracy": 0.0035072847357324067,
+      "update_variance": 0.009659979937349884,
+      "labels": 17934.833333333332
+    },
+    {
+      "budget": 0.375,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.911648519795366,
+      "accuracy": 0.02538295802178339,
+      "update_variance": 0.017106201212390235,
+      "labels": 15736.0
+    },
+    {
+      "budget": 0.375,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.024502207806403404,
+      "accuracy": 0.3389519659739986,
+      "update_variance": 0.030264727124728885,
+      "labels": 7600.0
+    },
+    {
+      "budget": 0.375,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.025616265280699612,
+      "accuracy": 0.3382294103505406,
+      "update_variance": 0.025277656470837486,
+      "labels": 7014.166666666667
+    },
+    {
+      "budget": 0.375,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005711879819671903,
+      "accuracy": 0.3458390769367596,
+      "update_variance": 0.0064639235258657285,
+      "labels": 6863.833333333333
+    },
+    {
+      "budget": 0.375,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.005143772507151405,
+      "accuracy": 0.34588044358274184,
+      "update_variance": 0.011847655359007829,
+      "labels": 6426.833333333333
+    },
+    {
+      "budget": 0.4,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9881028356341842,
+      "accuracy": 0.0029426054389839525,
+      "update_variance": 0.00968203902317625,
+      "labels": 18198.833333333332
+    },
+    {
+      "budget": 0.4,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.8837483655646227,
+      "accuracy": 0.03494123114668004,
+      "update_variance": 0.02184135953892649,
+      "labels": 17115.833333333332
+    },
+    {
+      "budget": 0.4,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.015007581675465051,
+      "accuracy": 0.3424318388303412,
+      "update_variance": 0.02224633828191212,
+      "labels": 7781.833333333333
+    },
+    {
+      "budget": 0.4,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.016225786578299817,
+      "accuracy": 0.3417366397450304,
+      "update_variance": 0.026659228538845354,
+      "labels": 7288.5
+    },
+    {
+      "budget": 0.4,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005737347233455759,
+      "accuracy": 0.34584039400941075,
+      "update_variance": 0.016770609369615882,
+      "labels": 7335.833333333333
+    },
+    {
+      "budget": 0.4,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.005300528369607538,
+      "accuracy": 0.34582094676442776,
+      "update_variance": 0.006601234269316488,
+      "labels": 6893.666666666667
+    },
+    {
+      "budget": 0.5,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.9756932025857444,
+      "accuracy": 0.00659487582591033,
+      "update_variance": 0.011359790548016403,
+      "labels": 23294.333333333332
+    },
+    {
+      "budget": 0.5,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.7706823816238262,
+      "accuracy": 0.07488051642397686,
+      "update_variance": 0.06031508440703823,
+      "labels": 19414.5
+    },
+    {
+      "budget": 0.5,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.0060468759562609916,
+      "accuracy": 0.3457201183224507,
+      "update_variance": 0.008062991010062914,
+      "labels": 9191.666666666666
+    },
+    {
+      "budget": 0.5,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.0067882396631119175,
+      "accuracy": 0.3452475014483949,
+      "update_variance": 0.005240708544029977,
+      "labels": 8745.333333333334
+    },
+    {
+      "budget": 0.5,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005748596752435195,
+      "accuracy": 0.34585239217129304,
+      "update_variance": 0.009060420391841656,
+      "labels": 9175.0
+    },
+    {
+      "budget": 0.5,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.0057153429637667565,
+      "accuracy": 0.3456609539439024,
+      "update_variance": 0.00524319687847525,
+      "labels": 8685.5
+    },
+    {
+      "budget": 0.7,
+      "policy": "random",
+      "correction": "fail",
+      "hack_rate": 0.05976511889199528,
+      "accuracy": 0.3262955168130415,
+      "update_variance": 0.02478302856595539,
+      "labels": 15807.833333333334
+    },
+    {
+      "budget": 0.7,
+      "policy": "low_pass",
+      "correction": "fail",
+      "hack_rate": 0.05738552081169471,
+      "accuracy": 0.3268991811345355,
+      "update_variance": 0.008338600355969691,
+      "labels": 14683.0
+    },
+    {
+      "budget": 0.7,
+      "policy": "random",
+      "correction": "reflect",
+      "hack_rate": 0.0027993240132429906,
+      "accuracy": 0.34690715107946263,
+      "update_variance": 0.006437919073604851,
+      "labels": 12446.5
+    },
+    {
+      "budget": 0.7,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "hack_rate": 0.0029820365316916213,
+      "accuracy": 0.34673114749355305,
+      "update_variance": 0.0013438537114506498,
+      "labels": 11994.833333333334
+    },
+    {
+      "budget": 0.7,
+      "policy": "random",
+      "correction": "unbiased",
+      "hack_rate": 0.005822164626241894,
+      "accuracy": 0.3458290233610781,
+      "update_variance": 0.005021234765970427,
+      "labels": 12816.666666666666
+    },
+    {
+      "budget": 0.7,
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "hack_rate": 0.005945567478982289,
+      "accuracy": 0.34561876874881,
+      "update_variance": 0.003984559901284392,
+      "labels": 12278.166666666666
+    }
+  ]
+}

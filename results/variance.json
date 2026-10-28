@@ -1,0 +1,61 @@
+{
+  "args": {
+    "groups": 16,
+    "group_size": 8,
+    "hack_rate": 0.4,
+    "solve_rate": 0.35,
+    "budget": 0.3,
+    "batches": 2000,
+    "out": "results/variance.json"
+  },
+  "rows": [
+    {
+      "policy": "random",
+      "correction": "fail",
+      "mean": 0.3131953125,
+      "sd": 0.10704866390044807,
+      "relative_sd": 0.3417952300944736,
+      "wrong_sign": 0.0
+    },
+    {
+      "policy": "low_pass",
+      "correction": "fail",
+      "mean": 0.28891796875,
+      "sd": 0.09550382876085858,
+      "relative_sd": 0.3305569022724849,
+      "wrong_sign": 0.0
+    },
+    {
+      "policy": "random",
+      "correction": "reflect",
+      "mean": -0.08522265625,
+      "sd": 0.15247552949282128,
+      "relative_sd": 1.7891431246350207,
+      "wrong_sign": 0.275
+    },
+    {
+      "policy": "low_pass",
+      "correction": "reflect",
+      "mean": -0.13377734375,
+      "sd": 0.15161911952856147,
+      "relative_sd": 1.133369188521965,
+      "wrong_sign": 0.177
+    },
+    {
+      "policy": "random",
+      "correction": "unbiased",
+      "mean": -0.6591546688334702,
+      "sd": 0.24402877095339987,
+      "relative_sd": 0.3702147348592196,
+      "wrong_sign": 0.006
+    },
+    {
+      "policy": "low_pass",
+      "correction": "unbiased",
+      "mean": -0.8123130585420704,
+      "sd": 0.2706297567551264,
+      "relative_sd": 0.3331594314645753,
+      "wrong_sign": 0.002
+    }
+  ]
+}

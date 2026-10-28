@@ -1,0 +1,821 @@
+{
+  "args": {
+    "groups": 256,
+    "group_size": 8,
+    "hack_rate": 0.4,
+    "solve_rate": 0.35,
+    "seeds": 20,
+    "out": "results/advantage.json",
+    "figure": "figures/advantage.png"
+  },
+  "rows": [
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": 0.6601318359375,
+      "label_fraction": 0.04999324331860176,
+      "catch_rate": 0.04871507606039567,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": 0.6464111328125,
+      "label_fraction": 0.050032831600470326,
+      "catch_rate": 0.04916484334103345,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": 0.6314697265625,
+      "label_fraction": 0.04922854672465977,
+      "catch_rate": 0.049589724751377025,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": 0.6024658203125,
+      "label_fraction": 0.09998540627371233,
+      "catch_rate": 0.10074432861415654,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": 0.5761962890625,
+      "label_fraction": 0.09994550204386396,
+      "catch_rate": 0.10093270957485245,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": 0.5534912109375,
+      "label_fraction": 0.09853663920106795,
+      "catch_rate": 0.09934299931660827,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": 0.5438232421875,
+      "label_fraction": 0.14989755703698376,
+      "catch_rate": 0.1508747209986442,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": 0.507763671875,
+      "label_fraction": 0.14985710396255011,
+      "catch_rate": 0.15310232827568165,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": 0.479296875,
+      "label_fraction": 0.14893898931164146,
+      "catch_rate": 0.1493629761011535,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": 0.4832763671875,
+      "label_fraction": 0.20004742068859754,
+      "catch_rate": 0.199719375997274,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": 0.442724609375,
+      "label_fraction": 0.20000783240672898,
+      "catch_rate": 0.2014402396090123,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": 0.4052978515625,
+      "label_fraction": 0.19888587041162425,
+      "catch_rate": 0.19933074194496656,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": 0.3569580078125,
+      "label_fraction": 0.29999105086528755,
+      "catch_rate": 0.29833415631819504,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": 0.303955078125,
+      "label_fraction": 0.2998702648446673,
+      "catch_rate": 0.30624430345218717,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": 0.2577392578125,
+      "label_fraction": 0.2982627710381854,
+      "catch_rate": 0.3023150589980811,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": 0.23115234375,
+      "label_fraction": 0.399896275798158,
+      "catch_rate": 0.39662603223630066,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": 0.1738525390625,
+      "label_fraction": 0.39985733167352555,
+      "catch_rate": 0.40383425668847356,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": 0.123828125,
+      "label_fraction": 0.39813112399873674,
+      "catch_rate": 0.40006671793412146,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": -0.0366943359375,
+      "label_fraction": 0.5999837786156914,
+      "catch_rate": 0.597526212494712,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": -0.0921875,
+      "label_fraction": 0.599943652332257,
+      "catch_rate": 0.5996945152858569,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": -0.1477783203125,
+      "label_fraction": 0.5972991313719211,
+      "catch_rate": 0.604472106546026,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": -0.3149169921875,
+      "label_fraction": 0.7999126750815542,
+      "catch_rate": 0.7954401872228097,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": -0.3595947265625,
+      "label_fraction": 0.7997133889486708,
+      "catch_rate": 0.7962385812670605,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": -0.3984619140625,
+      "label_fraction": 0.7977058677450662,
+      "catch_rate": 0.8013843586941863,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "fail",
+      "budget_fraction": 1.0
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "high_pass",
+      "correction": "fail",
+      "budget_fraction": 1.0
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "random",
+      "correction": "fail",
+      "budget_fraction": 1.0
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "low_pass",
+      "correction": "fail",
+      "budget_fraction": 1.0
+    },
+    {
+      "mass_per_group": -0.6283203125,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "fail",
+      "budget_fraction": 1.0
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 0.0
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": 0.60712890625,
+      "label_fraction": 0.04999324331860176,
+      "catch_rate": 0.04871507606039567,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": 0.5796875,
+      "label_fraction": 0.050032831600470326,
+      "catch_rate": 0.04916484334103345,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": 0.5498046875,
+      "label_fraction": 0.04922854672465977,
+      "catch_rate": 0.049589724751377025,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 0.05
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": 0.491796875,
+      "label_fraction": 0.09998540627371233,
+      "catch_rate": 0.10074432861415654,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": 0.4392578125,
+      "label_fraction": 0.09994550204386396,
+      "catch_rate": 0.10093270957485245,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": 0.39384765625,
+      "label_fraction": 0.09853663920106795,
+      "catch_rate": 0.09934299931660827,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 0.1
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": 0.37451171875,
+      "label_fraction": 0.14989755703698376,
+      "catch_rate": 0.1508747209986442,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": 0.302392578125,
+      "label_fraction": 0.14985710396255011,
+      "catch_rate": 0.15310232827568165,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": 0.245458984375,
+      "label_fraction": 0.14893898931164146,
+      "catch_rate": 0.1493629761011535,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 0.15
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": 0.25341796875,
+      "label_fraction": 0.20004742068859754,
+      "catch_rate": 0.199719375997274,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": 0.172314453125,
+      "label_fraction": 0.20000783240672898,
+      "catch_rate": 0.2014402396090123,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": 0.0974609375,
+      "label_fraction": 0.19888587041162425,
+      "catch_rate": 0.19933074194496656,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 0.2
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": 0.00078125,
+      "label_fraction": 0.29999105086528755,
+      "catch_rate": 0.29833415631819504,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": -0.105224609375,
+      "label_fraction": 0.2998702648446673,
+      "catch_rate": 0.30624430345218717,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": -0.19765625,
+      "label_fraction": 0.2982627710381854,
+      "catch_rate": 0.3023150589980811,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 0.3
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": -0.250830078125,
+      "label_fraction": 0.399896275798158,
+      "catch_rate": 0.39662603223630066,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": -0.3654296875,
+      "label_fraction": 0.39985733167352555,
+      "catch_rate": 0.40383425668847356,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": -0.465478515625,
+      "label_fraction": 0.39813112399873674,
+      "catch_rate": 0.40006671793412146,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 0.4
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": -0.7865234375,
+      "label_fraction": 0.5999837786156914,
+      "catch_rate": 0.597526212494712,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": -0.897509765625,
+      "label_fraction": 0.599943652332257,
+      "catch_rate": 0.5996945152858569,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": -1.00869140625,
+      "label_fraction": 0.5972991313719211,
+      "catch_rate": 0.604472106546026,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 0.6
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": -1.34296875,
+      "label_fraction": 0.7999126750815542,
+      "catch_rate": 0.7954401872228097,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": -1.43232421875,
+      "label_fraction": 0.7997133889486708,
+      "catch_rate": 0.7962385812670605,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": -1.51005859375,
+      "label_fraction": 0.7977058677450662,
+      "catch_rate": 0.8013843586941863,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 0.8
+    },
+    {
+      "mass_per_group": 0.713134765625,
+      "label_fraction": 0.0,
+      "catch_rate": 0.0,
+      "policy": "none",
+      "correction": "reflect",
+      "budget_fraction": 1.0
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "high_pass",
+      "correction": "reflect",
+      "budget_fraction": 1.0
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "random",
+      "correction": "reflect",
+      "budget_fraction": 1.0
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "low_pass",
+      "correction": "reflect",
+      "budget_fraction": 1.0
+    },
+    {
+      "mass_per_group": -1.969775390625,
+      "label_fraction": 1.0,
+      "catch_rate": 1.0,
+      "policy": "full",
+      "correction": "reflect",
+      "budget_fraction": 1.0
+    }
+  ],
+  "crossings": {
+    "low_pass/fail": 0.4882785067195862,
+    "low_pass/reflect": 0.23077559816639473,
+    "random/fail": 0.5298353725569044,
+    "random/reflect": 0.2623264301393961,
+    "high_pass/fail": 0.5743670307015426,
+    "high_pass/reflect": 0.30015394970071285
+  }
+}
